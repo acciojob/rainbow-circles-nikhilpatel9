@@ -2,30 +2,32 @@
   box-sizing: border-box;
 }
 
-div {
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 #outer {
-  width: 300px;
-  height: 300px;
   border: 25px solid #ff0000;
   background-color: #ffa500;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
 }
 
 #middle {
-  width: 200px;
-  height: 200px;
   border: 25px solid #ffff00;
   background-color: #008000;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
 }
 
 #inner {
-  width: 100px;
-  height: 100px;
   border: 25px solid #0000ff;
   background-color: #800080;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
 }
