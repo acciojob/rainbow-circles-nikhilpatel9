@@ -15,8 +15,8 @@
 #middle {
   border: 25px solid #ffff00;
   background-color: #008000;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -25,8 +25,8 @@
 #inner {
   border: 25px solid #0000ff;
   background-color: #800080;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   display: grid;
   place-items: center;
